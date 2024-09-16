@@ -1,6 +1,5 @@
-Add in functions.php
-//add slider header
+Add in functions.php;
+//add slider header;
 require get_template_directory() . '/slider/index.php';
 
-in style copy past shortckod
-[slider__header]
+Вставить хороткод на сайте [slider__header]
