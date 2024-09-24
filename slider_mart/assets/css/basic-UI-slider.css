@@ -1,0 +1,61 @@
+/* basic UI start */
+.slider {
+   /*  background: red!important; */
+}
+.slider .hidden {
+    display: none!important;
+}
+.slider .hidden--desctop {
+    display: block;
+}
+.slider .hidden--tablet {
+    display: block;
+}
+.slider .hidden--mobile {
+    display: block;
+}
+/* additon media */
+@media screen and (max-width: 1200px) and (min-width: 980px) {
+    
+}
+@media screen and (max-width: 980px) and (min-width: 768px) {
+    
+}
+@media screen and (max-width: 768px) and (min-width: 540px) {
+    
+}
+
+/* basic */
+@media screen and (max-width: 1200px) and (min-width: 980px) {
+    .slider .hidden--desctop {
+        display: block;
+    }
+    .slider .hidden--tablet {
+        display: none;
+    }
+    .slider .hidden--mobile {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) and (min-width: 980px) {
+   .slider .hidden--desctop {
+        display: none;
+    }
+    .slider .hidden--tablet {
+        display: block;
+    }
+    .slider .hidden--mobile {
+        display: none;
+    } 
+}
+@media screen and (max-width: 768px) {
+    .slider .hidden--desctop {
+        display: none;
+    }
+    .slider .hidden--tablet {
+        display: none;
+    }
+    .slider .hidden--mobile {
+        display: block;
+    }
+}
